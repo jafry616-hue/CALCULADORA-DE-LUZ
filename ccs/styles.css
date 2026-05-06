@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1451d3 0%, #2942b1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.calculadora {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    width: 320px;
+    text-align: center;
+}
+
+/* Título */
+.calculadora h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.6rem;
+}
+
+/* Etiquetas */
+.calculadora label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #444;
+    text-align: left;
+}
+
+/* Inputs y select */
+.calculadora input,
+.calculadora select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+.calculadora input:focus,
+.calculadora select:focus {
+    border-color: #0509e9;
+    outline: none;
+}
+
+/* Botón */
+.calculadora button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #74ebd5;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.calculadora button:hover {
+    background: #cf80c2;
+}
+
+/* Resultados */
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.resultado p {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.resultado .total {
+    font-weight: bold;
+    color: #4bb3a7;
+}
